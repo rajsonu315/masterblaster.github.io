@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+
+
+<html class="no-js" lang="en">
+
+<head>
+    <title>Master Blaster </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Add - Home Screen for iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="all" href="css/cssgrid.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="css/header.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="css/prism.css" />
+
+    <style>
+        .module__item {
+            align-items: center;
+            display: flex;
+            height: 20%;
+            justify-content: center;
+        }
+
+        .module__item60 {
+            align-items: center;
+            display: flex;
+            height: 80%;
+            justify-content: center;
+
+        }
+
+        /* .module__item20 {
+            align-items: center;
+            display: flex;
+            height: 20%;
+            justify-content: center;
+
+        } */
+
+        .title img {
+            height: 100px;
+        }
+    </style>
+
+    <style>
+        .tacbox {
+            display: block;
+            padding: 1em;
+
+
+            outline: 2px dotted #f00;
+
+            background-color: #f6d2d2;
+            color: darkred !important;
+            max-width: 800px;
+        }
+
+        #wrapper {
+            text-align: center;
+            color: #000;
+            font-weight: bold;
+            font-size: 30px;
+            padding: 50px 0;
+        }
+
+        span {
+            text-shadow: -0.09em 0 #ff6c6c, 0.09em 0 #cf0015;
+            /* This creates the 3D effect, pretty easy, eh? */
+
+            /* This creates the 3D effect, pretty easy, eh? */
+            letter-spacing: 0.08em;
+            /* make sure the letters don't overlap */
+            color: #ffff;
+        }
+
+        p {
+            margin: 0;
+        }
+
+
+
+
+        #title:focus {
+            outline: none;
+        }
+
+        #title span {
+            vertical-align: middle;
+            line-height: 1.5em;
+            transition: font-size 2s cubic-bezier(0, 1, 0, 1);
+        }
+
+        #title span:hover {
+            font-size: 1.5em;
+            /* This adds a hover effect */
+            line-height: 1em;
+            transition: font-size .2s cubic-bezier(0, 0.75, 0, 1);
+        }
+
+        #title span:active {
+            font-size: 1em;
+            text-shadow: none;
+            /* Click to disable the 3D effect */
+        }
+
+        #title span::selection {
+            background-color: red;
+            /* This hides the selection */
+        }
+
+
+        /* ---------------- Slogan ---------------- */
+
+
+
+        #slogan span:active {
+            text-shadow: none;
+        }
+
+
+
+
+        /* Below just some styling for the meta info */
+
+        #meta {
+            color: #777;
+            font-size: 1.2em;
+            line-height: 1.6em;
+            text-align: center;
+            text-shadow: rgba(255, 255, 255, 0.5) 0 1px 0;
+            margin: 30px;
+        }
+
+        #meta strong {
+            font-weight: bold;
+            color: #000;
+        }
+
+        #meta p:first-child {
+            margin-bottom: 20px;
+        }
+
+        #meta a {
+            text-decoration: none;
+            color: #7276ff;
+        }
+
+        #meta a:hover {
+            color: rgba(114, 118, 255, 0.5);
+        }
+
+        #meta img {
+            vertical-align: text-bottom;
+        }
+    </style>
+
+    <style>
+        #loginimg {
+            background-image: url(./image/submit.png);
+            height: 62px;
+            width: 200px;
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-size: contain;
+            border: 7px solid transparent !important;
+            /* padding: 15px; */
+            /* border-image: url('./image/submit.png') 30 stretch !important; */
+
+
+
+        }
+    </style>
+
+
+
+
+</head>
+
+<body>
+
+
+
+    <!-- Wrapper -->
+    <div class="wrapper styled">
+        <div class="wrapper-padding max-width">
+            <div class="module">
+                <div class="module__item">
+                    <div class="p1 clearfix">
+                        <div class="one">
+
+                            <div class="d-flex center ">
+                                <img src="./image/title.png" alt="" class="img-fluid" style="height: 133px;">
+
+
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+                <div class="module__item60">
+                    <div class="p2 clearfix">
+
+
+
+
+                        <style>
+                            .fxt-template-layout27 .fxt-form .form-control {
+                                min-height: 50px;
+                                -webkit-box-shadow: none;
+                                box-shadow: none;
+                                border: 0;
+                                padding: 14px 15px;
+                                background-color: #450402;
+                                color: #ffffff;
+                            }
+
+                            #form1 {
+                                width: auto;
+                            }
+
+                            .alert {
+                                text-align: center;
+                            }
+
+                            #blah {
+                                max-height: 256px;
+                                height: 150px;
+                                background-size: contain;
+                                width: 200px;
+                                display: block;
+                                margin-left: auto;
+                                margin-right: auto;
+                                padding: 15px;
+                            }
+
+                            #img_contain {
+                                border-radius: 5px;
+                                /*  border:1px solid grey;*/
+                                margin-top: 20px;
+                                width: auto;
+                            }
+
+
+
+
+
+                            .loading {
+                                animation: blinkingText ease 2.5s infinite;
+                            }
+
+                            .custom-file-label {
+                                cursor: pointer;
+                            }
+                        </style>
+
+
+
+                        <section class="fxt-template-animation fxt-template-layout27" id="stickupload">
+                            <!-- Animation Start Here -->
+                            <!-- Animation End Here -->
+                            <div class="fxt-contents">
+                                <div class="fxt-header">
+
+                                    <div id="wrapper">
+
+                                        <p id="slogan"><span>Please upload stick</span> </p>
+
+                                    </div>
+                                    <!-- <h1 class="heading__primary"> ENTER YOUR DETAILS TO PLAY THE
+
+                                        GAME</h1> -->
+
+
+                                </div>
+                                <div class="fxt-form">
+
+                                    <form action="game.html" id="form1" runat="server">
+                                        <div class="alert"></div>
+                                        <div id='img_contain'><img id="blah"
+                                                src="http://www.clker.com/cliparts/c/W/h/n/P/W/generic-image-file-icon-hi.png"
+                                                alt="your image" title='' /></div>
+                                        <div class="input-group mt-5">
+                                            <div class="custom-file">
+                                                <input type="file" class="form-control" id="inputGroupFile01"
+                                                    class="imgInp " aria-describedby="inputGroupFileAddon01">
+
+                                            </div>
+                                        </div>
+
+
+
+                                        <div class="form-group mt-5">
+                                            <button type="submit" class="fxt-btn-fill" id="loginimg">
+                                            </button>
+
+                                        </div>
+                                    </form>
+                                </div>
+
+
+                            </div>
+                        </section>
+
+
+
+
+
+
+
+                    </div>
+                </div>
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+        </div>
+    </div>
+    <!-- / Wrapper -->
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script type="text/javascript" src="http://www.cssgrid.co/css-grid/js/jquery-3.2.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script type="text/javascript" src="http://www.cssgrid.co/css-grid/js/prism.js"></script>
+
+    <script>
+
+        let vh = window.innerHeight * 0.01;
+        document.documentElement.style.setProperty('--vh', `${vh}px`);
+        window.addEventListener('resize', () => {
+            let vh = window.innerHeight * 0.01;
+            document.documentElement.style.setProperty('--vh', `${vh}px`);
+        });
+    </script>
+
+
+
+    <script>
+        $("#inputGroupFile01").change(function (event) {
+            RecurFadeIn();
+            readURL(this);
+        });
+        $("#inputGroupFile01").on('click', function (event) {
+            RecurFadeIn();
+        });
+        function readURL(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+                var filename = $("#inputGroupFile01").val();
+                filename = filename.substring(filename.lastIndexOf('\\') + 1);
+                reader.onload = function (e) {
+                    // debugger;
+                    $('#blah').attr('src', e.target.result);
+                    $('#blah').hide();
+                    $('#blah').fadeIn(500);
+                    $('.custom-file-label').text(filename);
+                }
+                reader.readAsDataURL(input.files[0]);
+            }
+            //$(".alert").removeClass("loading").hide();
+        }
+        function RecurFadeIn() {
+            console.log('ran');
+            //FadeInAlert("Wait for it...");
+        }
+        function FadeInAlert(text) {
+            // $(".alert").show();
+            // $(".alert").text(text).addClass("loading");
+        }
+    </script>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

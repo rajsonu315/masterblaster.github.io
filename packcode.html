@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+
+
+<html class="no-js" lang="en">
+
+<head>
+    <title>Master Blaster </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Add - Home Screen for iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="all" href="css/cssgrid.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="css/header.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="css/prism.css" />
+
+    <style>
+        .module__item {
+            align-items: center;
+            display: flex;
+            height: 20%;
+            justify-content: center;
+        }
+
+        .module__item60 {
+            align-items: center;
+            display: flex;
+            height: 80%;
+            justify-content: center;
+
+        }
+
+        /* .module__item20 {
+            align-items: center;
+            display: flex;
+            height: 20%;
+            justify-content: center;
+
+        } */
+
+        .title img {
+            height: 100px;
+        }
+    </style>
+
+    <style>
+        .tacbox {
+            display: block;
+            padding: 1em;
+
+
+            outline: 2px dotted #f00;
+
+            background-color: #f6d2d2;
+            color: darkred !important;
+            max-width: 800px;
+        }
+
+        #wrapper {
+            text-align: center;
+            color: #000;
+            font-weight: bold;
+            font-size: 30px;
+            padding: 50px 0;
+        }
+
+        span {
+            text-shadow: -0.09em 0 #ff6c6c, 0.09em 0 #cf0015;
+            /* This creates the 3D effect, pretty easy, eh? */
+
+            /* This creates the 3D effect, pretty easy, eh? */
+            letter-spacing: 0.08em;
+            /* make sure the letters don't overlap */
+            color: #ffff;
+        }
+
+        p {
+            margin: 0;
+        }
+
+
+
+
+        #title:focus {
+            outline: none;
+        }
+
+        #title span {
+            vertical-align: middle;
+            line-height: 1.5em;
+            transition: font-size 2s cubic-bezier(0, 1, 0, 1);
+        }
+
+        #title span:hover {
+            font-size: 1.5em;
+            /* This adds a hover effect */
+            line-height: 1em;
+            transition: font-size .2s cubic-bezier(0, 0.75, 0, 1);
+        }
+
+        #title span:active {
+            font-size: 1em;
+            text-shadow: none;
+            /* Click to disable the 3D effect */
+        }
+
+        #title span::selection {
+            background-color: red;
+            /* This hides the selection */
+        }
+
+
+        /* ---------------- Slogan ---------------- */
+
+
+
+        #slogan span:active {
+            text-shadow: none;
+        }
+
+
+
+
+        /* Below just some styling for the meta info */
+
+        #meta {
+            color: #777;
+            font-size: 1.2em;
+            line-height: 1.6em;
+            text-align: center;
+            text-shadow: rgba(255, 255, 255, 0.5) 0 1px 0;
+            margin: 30px;
+        }
+
+        #meta strong {
+            font-weight: bold;
+            color: #000;
+        }
+
+        #meta p:first-child {
+            margin-bottom: 20px;
+        }
+
+        #meta a {
+            text-decoration: none;
+            color: #7276ff;
+        }
+
+        #meta a:hover {
+            color: rgba(114, 118, 255, 0.5);
+        }
+
+        #meta img {
+            vertical-align: text-bottom;
+        }
+    </style>
+
+    <style>
+        #loginimg {
+            background-image: url(./image/submit.png);
+            height: 62px;
+            width: 200px;
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-size: contain;
+            border: 7px solid transparent !important;
+            /* padding: 15px; */
+            /* border-image: url('./image/submit.png') 30 stretch !important; */
+
+
+
+        }
+    </style>
+
+
+    <style>
+        @keyframes borderAnimation {
+
+            0%,
+            100% {
+                border-color: transparent;
+            }
+
+            50% {
+                border-color: #ff0000;
+                /* Red */
+            }
+        }
+
+        .one {
+            display: inline-block;
+            border: 2px solid transparent;
+            padding: 5px;
+            border-radius: 50px;
+
+            cursor: pointer;
+            transition: border-color 0.3s ease-in-out;
+        }
+
+        .one.active {
+            animation: borderAnimation 1s linear infinite;
+            border-color: #ff0000;
+            /* Red */
+            background-color: rgb(53 100 167 / 73%);
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+
+    <!-- Wrapper -->
+    <div class="wrapper styled">
+        <div class="wrapper-padding max-width">
+            <div class="module">
+                <div class="module__item">
+                    <div class="p1 clearfix">
+                        <div class="one">
+
+                            <div class="d-flex center ">
+                                <img src="./image/title.png" alt="" class="img-fluid" style="height: 133px;">
+
+
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+                <style>
+                    .bgimgc_{
+                        background-image: url('./image/big-pop-up-window.png');
+                        background-position: center;
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                        height: 400px;
+                        width: 100%;
+                        position: relative;
+                    }
+                    .stickupload{
+                        position: absolute;
+                        top: 50px;
+                        left: 0;
+                        right: 0;
+                        margin: 0 auto;
+                    }
+                    .packcodeenter{
+                        position: absolute;
+                        bottom:  50px;
+                        left: 0;
+                        right: 0;
+                        margin: 0 auto;
+                    }
+                </style>
+                <div class="module__item60">
+                    <div class="p2 clearfix bgimgc_">
+                        <div class="one   stickupload">
+                            <a href="./entercode.html" class="href">
+                                <img src="./image/Code1.png" alt="" class="rounded"
+                                style="height: 50px; border-radius: 50px;"> <br>
+                                <img src="./image/Entercode.png" alt="" class="rounded"
+                                    style="height: 50px; border-radius: 50px; margin-top: 10px;">
+                            </a>
+
+                        </div>
+
+
+                        <div class="one packcodeenter">
+                            <a href="./imageupload.html" class="href">
+                                <img src="./image/Upload.png" alt="" class="rounded"
+                                style="height: 50px; border-radius: 50px;"> <br>
+                                <img src="./image/upload-stick.png" alt="" class="rounded"
+                                    style="height: 50px; border-radius: 50px; margin-top: 10px;">
+                            </a>
+
+                        </div>
+
+
+                        <section class="fxt-template-animation fxt-template-layout27 d-none " id="packcodeenter">
+                            <!-- Animation Start Here -->
+                            <!-- Animation End Here -->
+                            <div class="fxt-contents">
+                                <div class="fxt-header">
+
+                                    <div id="wrapper">
+
+                                        <p id="slogan"><span>Please Enter your PackCode</span> </p>
+
+                                    </div>
+                                    <!-- <h1 class="heading__primary"> ENTER YOUR DETAILS TO PLAY THE
+
+                                        GAME</h1> -->
+
+
+                                </div>
+                                <div class="fxt-form">
+
+                                    <form action="game.html" method="POST">
+
+                                        <div class="form-group">
+                                            <div class="fxt-transformY-50 fxt-transition-delay-3">
+                                                <input type="tel" class="form-control tacbox" minlength="10"
+                                                    maxlength="10" name="Number" placeholder="ENTER YOUR PACKCODE. "
+                                                    required="required">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <button type="submit" class="fxt-btn-fill" id="loginimg">
+                                            </button>
+
+                                        </div>
+                                    </form>
+                                </div>
+
+
+                            </div>
+                        </section>
+
+
+                        <section class="fxt-template-animation fxt-template-layout27 d-none" id="stickupload">
+                            <!-- Animation Start Here -->
+                            <!-- Animation End Here -->
+                            <div class="fxt-contents">
+                                <div class="fxt-header">
+
+                                    <div id="wrapper">
+
+                                        <p id="slogan"><span>Please upload stick</span> </p>
+
+                                    </div>
+                                    <!-- <h1 class="heading__primary"> ENTER YOUR DETAILS TO PLAY THE
+
+                                        GAME</h1> -->
+
+
+                                </div>
+                                <div class="fxt-form">
+
+                                    <form action="game.html" method="POST">
+
+                                        <div class="form-group">
+                                            <div class="fxt-transformY-50 fxt-transition-delay-3">
+                                                <input type="file" class="form-control" name="file" required="required">
+                                            </div>
+                                        </div>
+
+
+
+
+                                        <div class="form-group">
+                                            <button type="submit" class="fxt-btn-fill" id="loginimg">
+                                            </button>
+
+                                        </div>
+                                    </form>
+                                </div>
+
+
+                            </div>
+                        </section>
+
+
+
+
+
+
+
+                    </div>
+                </div>
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+        </div>
+    </div>
+    <!-- / Wrapper -->
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script type="text/javascript" src="http://www.cssgrid.co/css-grid/js/jquery-3.2.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script type="text/javascript" src="http://www.cssgrid.co/css-grid/js/prism.js"></script>
+
+    <script>
+
+        let vh = window.innerHeight * 0.01;
+        document.documentElement.style.setProperty('--vh', `${vh}px`);
+        window.addEventListener('resize', () => {
+            let vh = window.innerHeight * 0.01;
+            document.documentElement.style.setProperty('--vh', `${vh}px`);
+        });
+    </script>
+
+
+
+    <script>
+        $(document).ready(function () {
+            // Show the packcodeenter section and hide the stickupload section by default
+            $('#packcodeenter').show();
+            $('#stickupload').hide();
+
+            // Click event for packcodeenter section
+            $('.one.packcodeenter img').click(function () {
+                $('.one').removeClass('active'); // Remove active class from all elements
+                $(this).parent('.one').addClass('active'); // Add active class to the clicked element's parent
+                $('#packcodeenter').hide();
+                $('#stickupload').show();
+            });
+
+            // Click event for stickupload section
+            $('.one.stickupload img').click(function () {
+                $('.one').removeClass('active'); // Remove active class from all elements
+                $(this).parent('.one').addClass('active'); // Add active class to the clicked element's parent
+                $('#stickupload').hide();
+                $('#packcodeenter').show();
+            });
+        });
+
+    </script>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
