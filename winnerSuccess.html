@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+
+<html class="no-js" lang="en">
+
+<head>
+    <title>Master Blaster </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Add - Home Screen for iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="stylesheet" type="text/css" media="all" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="css/cssgrid.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="css/header.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="css/prism.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+
+
+    <!-- Wrapper -->
+    <div class="wrapper styled">
+        <div class="wrapper-padding max-width">
+            <div class="module">
+                <div class="module__item601">
+                    <div class="p1 clearfix">
+                        <div class="one">
+
+                            <div class="d-flex center ">
+                                <img src="./image/title.png" alt="" class="img-fluid" style="height: 133px;">
+
+
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+
+                <div class="module__item600">
+                    
+                    
+                    <div class="p2 clearfix bgimgc_">
+       
+
+                 
+                        <div class="one   stickupload">
+                            
+                            <div class="text-center">
+                                <span class="heading
+                                ">Thanks for Participating
+                                </span>
+                       
+                           
+                            </div>
+
+                            <div class="text-center mt-5">
+                         
+                                <i style="color: #ffff; font-size: 35px;">You Prize will be dispatched within 8-10 days, details you will get on SMS.
+                                </i>
+                           
+                            </div>
+
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- / Wrapper -->
+
+
+    <script type="text/javascript" src="./js/jquery-3.2.0.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/prism.js"></script>
+    <script src="./js/script.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Show the packcodeenter section and hide the stickupload section by default
+            $('#packcodeenter').show();
+            $('#stickupload').hide();
+
+            // Click event for packcodeenter section
+            $('.one.packcodeenter img').click(function () {
+                $('.one').removeClass('active'); // Remove active class from all elements
+                $(this).parent('.one').addClass('active'); // Add active class to the clicked element's parent
+                $('#packcodeenter').hide();
+                $('#stickupload').show();
+            });
+
+            // Click event for stickupload section
+            $('.one.stickupload img').click(function () {
+                $('.one').removeClass('active'); // Remove active class from all elements
+                $(this).parent('.one').addClass('active'); // Add active class to the clicked element's parent
+                $('#stickupload').hide();
+                $('#packcodeenter').show();
+            });
+        });
+
+    </script>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

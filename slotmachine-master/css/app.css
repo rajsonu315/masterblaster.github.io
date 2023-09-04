@@ -5,13 +5,13 @@ body {
 .slotwrapper {
     overflow: hidden;
     display: inline-block;
-    border: 1px solid #000;
+    border: 1px solid #00000000;
     /* height: 200px; */
     position: relative;
-    margin-top: 75px;
+    margin-top: 97px;
     max-width: 300px !important;
-    width: 237px !important;
-    left: -20px;
+    width: 261px !important;
+    left: 0px;
 }
 .slotwrapper ul {
     padding: 0;
